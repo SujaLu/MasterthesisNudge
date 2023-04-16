@@ -1,0 +1,83 @@
+body {
+    background-image:url("Images/mensa.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:fantasy;
+    font-size: small;
+  }
+  
+  .container {
+    width: 900px;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: small;
+  }
+
+  
+  button {
+      padding: 10px;
+      background-color: #5e91a7;
+      color: rgb(17, 12, 12);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+      margin-top: 20px;
+      font-family:fantasy;
+  }
+  
+  button:hover {
+      background-color: #074f61;
+  }
+  
+  p {
+      margin-bottom: 20px;
+      font-size: 18px;
+  }
+  
+.soda {
+    width: 200px;
+}
+
+.water {
+    width: 200px;
+}
+.cash {
+    width: 200px;
+}
+
+.card {
+    width: 200px;
+}
+
+.menu1, 
+.menu3 {
+    width: 200px;
+    height: 200px;
+}
+
+.menu2 {
+    width: 250px;
+    height: 200px;
+}
+
+.food-info {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .score3 {
+    width: 150px;
+}
+
+.score2 {
+    width: 150px;
+}

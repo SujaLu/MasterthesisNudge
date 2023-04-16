@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu Options</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<div class="container">
+		<h1>Menu Options</h1>
+		<p>Choose your food options:</p>
+		<form id="menuForm">
+			<label>
+				<input type="radio" name="menu" value="Menu 1" required>
+				Menu 1
+			</label>
+			<label>
+				<input type="radio" name="menu" value="Menu 2">
+				Menu 2
+			</label>
+			<label>
+				<input type="radio" name="menu" value="Menu 3">
+				Menu 3
+			</label>
+			<br>
+		</form>
+		<h1>Drink Options</h1>
+		<p>Choose your drink option:</p>
+		<form onsubmit="submitDrink(event)">
+		  <label>
+			<input type="radio" name="drink" value="Water" required>
+			<img class= "water" src="Images/water.jpeg" alt="Water">
+		  </label>
+		  <label>
+			<input type="radio" name="drink" value="Soda">
+			<img class= "soda" src="Images/soda.jpeg" alt="Soda">
+		  </label>
+		  <br>
+		  <button type="submit">Submit</button>
+		</form>
+		<h1>Payment Options</h1>
+		<p>You are now standing in line to pay for your food. Please let the cashier know if you want to pay with card or cash.</p>
+		<form onsubmit="submitPayment(event)">
+		  <label>
+		  <label style="margin-right: 10px;">
+			<input type="radio" name="payment" value="Cash" required>
+			<img class= "cash" src="Images/cash.jpeg" alt="Cash">
+		  </label>
+		  <label>
+		  <label style="margin-right: 10px;">
+			<input type="radio" name="payment" value="Card">
+			<img class= "card" src="Images/card.jpeg" alt="Creditcards">
+		  </label>
+		  <br>
+		  <button type="submit">Submit</button>
+		</form>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
